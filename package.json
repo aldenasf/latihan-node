@@ -1,5 +1,32 @@
 {
-  "dependencies": {
-    "experss": "^0.0.1-security"
-  }
+    "name": "latihan-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "file.js",
+    "dependencies": {
+        "cors": "^2.8.6",
+        "dotenv": "^18.0.9",
+        "experss": "^0.0.1-security",
+        "express": "^5.3.0",
+        "pg": "^8.23.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "seed": "node backend/seed.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aldenasf/latihan-node.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/aldenasf/latihan-node/issues"
+    },
+    "homepage": "https://github.com/aldenasf/latihan-node#readme"
 }
